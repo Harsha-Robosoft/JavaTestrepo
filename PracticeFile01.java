@@ -11,6 +11,7 @@ public class PracticeFile01 {
     public void callTheFunction(){
         PracticeFile02 file02 = new PracticeFile02();
         file02.showData(name, address);
+        new BranchTest().testing();
     }
 
 }
